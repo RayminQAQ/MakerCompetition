@@ -1,3 +1,4 @@
 # MakerCompetition
 
-the code is made in 2023.4.29, using tkinter
+Bulid for Maker Contest
+this code is made in 2023.4.29, using tkinter in Python
