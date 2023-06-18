@@ -98,7 +98,7 @@ class CompressWindow():
         self.CompressWindow.pack()
 
         # add Compress Pic
-        global tk_img   # IMPORTANT: PYTHON 的垃圾回收繼志會把它回收，所以要用glonal
+        global tk_img   # IMPORTANT: PYTHON 的垃圾回收機制會把它回收，所以要用global
         tk_img = ImageTk.PhotoImage(pic_compress)  # 開啟檔案，轉換為 tk 圖片物件
         label = Label(self.CompressWindow, image=tk_img)  # 在 Lable 中放入圖片
         label.pack()
